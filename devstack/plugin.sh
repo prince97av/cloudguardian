@@ -9,7 +9,7 @@ function install_cloudguardian {
 
 function start_cloudguardian {
     echo "Starting CloudGuardian"
-    run_process cloudguardian "python3 $CLOUDGUARDIAN_DIR/cloudguardian/app.py"
+    run_process cloudguardian "/usr/bin/python3 $CLOUDGUARDIAN_DIR/cloudguardian/app.py"
 }
 
 function stop_cloudguardian {

@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+cloudguardian/app.py
+cloudguardian.egg-info/PKG-INFO
+cloudguardian.egg-info/SOURCES.txt
+cloudguardian.egg-info/dependency_links.txt
+cloudguardian.egg-info/top_level.txt
