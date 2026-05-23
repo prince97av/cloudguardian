@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CLOUDGUARDIAN_DIR=$DEST/cloudguardian
+
 function install_cloudguardian {
     echo "Installing CloudGuardian"
     setup_develop $CLOUDGUARDIAN_DIR
